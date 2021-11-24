@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(360deg, #223949, #3d6a8a);
+    background-color: #0c161d;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Coda Caption", sans-serif;
+}
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    padding: 20px 10px;
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+.header-right {
+    float: left;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+.header:hover {
+    transform: scale(1.2);
+}
+.header-right:hover {
+    transform: scale(1.2);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+}
+
+hr {
+    margin: 10px 0;
+    width: 60%;
+    border: 1px;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.next {
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Coda Caption", sans-serif;
+    width: 200px;
+}
+.twitter {
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: "Coda Caption", sans-serif;
+    width: 200px;
+}
+.button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p img {
+    width: auto;
+    height: auto;
+}
